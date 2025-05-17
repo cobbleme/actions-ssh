@@ -1,69 +1,20 @@
 name: One-Time VPS Command
 
 on:
-  workflow_dispatch:  # 允許你從 GitHub UI 手動執行
+  workflow_dispatch:
 
 jobs:
   ssh-run:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Set up SSH key
-      run: |
-        mkdir -p ~/.ssh
-        echo "${{ secrets.-----BEGIN OPENSSH PRIVATE KEY-----
-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
------END OPENSSH PRIVATE KEY-----
- }}" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan -H ${{ secrets.s4.serv00.com }} >> ~/.ssh/known_hosts
+      - name: Set up SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts
 
-    - name: Run command on VPS
-      run: |
-        ssh ${{ secrets.cobblestone }}@${{ secrets.VPS_HOST }} "echo '✅ VPS command succeeded!'; uptime"
+      - name: Run command on VPS
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} "java -jar JMusicBot-0.4.3.8.jar'; uptime"
