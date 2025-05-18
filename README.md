@@ -2,6 +2,8 @@
 
 > 靈感來源：[Yeecord 教學](https://yeecord.com/blog/make-discord-music-bot-without-coding)
 
+[Yeecord遇到的困難?](https://yeecord.com/blog/thats-why-i-gave-up-on-music)
+
 這篇教學將帶你從 0 開始，利用免費的 GitHub Actions 搭配 Serv00 VPS，部署一個強大的 Discord 音樂機器人 —— [JMusicBot](https://github.com/jagrosh/MusicBot)。
 
 ---
