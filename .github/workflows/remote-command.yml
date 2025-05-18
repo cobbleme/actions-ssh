@@ -17,4 +17,4 @@ jobs:
 
       - name: Run command on VPS
         run: |
-          ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} "cd dc_bot && nohup java -jar JMusicBot-0.4.3.8.jar > /dev/null 2>&1 &"
+          ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} "cd dc_bot && nohup java -jar JMusicBot-0.4.3.8.jar > /dev/null 2>&1 &\ echo '🎶 Bot started in background with nohup 🎉'"
