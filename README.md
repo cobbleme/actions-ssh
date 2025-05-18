@@ -27,7 +27,7 @@
 
 1. 前往官方 JMusicBot 頁面下載 `.jar` 檔案：
    - 優先選用官方版本：[jagrosh/MusicBot](https://github.com/jagrosh/MusicBot/releases)
-   - 若官方無法下載，也可以改用 Fork：[SeVile/MusicBot](https://github.com/SeVile/MusicBot/releases)
+   - 若官方無法使用，也可以改用 Fork：[SeVile/MusicBot](https://github.com/SeVile/MusicBot/releases)
 
 ---
 
